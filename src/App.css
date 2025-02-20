@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #4d450d;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.image-box {
+  font-size: 3rem;
+  margin: 10px;
+  padding: 20px;
+  background-color: #b5531f;
+  border-radius: 10px;
+  border: 5px solid #d6c0c0;
+  box-shadow: 0 4px 0px rgba(89, 45, 45, 0.1);
+  transition: transform 0.2s;
+}
+
+.image-box:hover {
+  transform: scale(1.1);
+}
+
+.button-image {
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.button-image:hover {
+  transform: scale(1.1);
+}
+
+.counter {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+

@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+}
+
+.imagem-container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.imagem-cube {
+  width: 550px;
+  height: 550px;
+  transition: transform 0.2s;
+}
+
+.imagem-cube:hover {
+  transform: scale(1.1);
+}
+
+button {
+  padding: 10px 10px;
+  background-color: #af954c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
